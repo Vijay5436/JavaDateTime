@@ -31,12 +31,13 @@ public class JavaYearExample
 		System.out.println(l1);//given year
 		
 		long l2  = ym.getLong(ChronoField.MONTH_OF_YEAR);
-		System.out.println(l2);
+		System.out.println(l2);//given month
 		
 		YearMonth ym2 = ym.plus(Period.ofYears(2));
-		System.out.println(ym2);
+		System.out.println(ym2);//add 2 years 
+		
 		YearMonth ym3 = ym.minus(Period.ofYears(2));
-		System.out.println(ym3);
+		System.out.println(ym3);//minus 2 years
 		
 	}
 
